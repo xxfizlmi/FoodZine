@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.material-symbols-outlined {
+	font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.star-container {
+	@apply flex items-center justify-end flex-row-reverse;
+}
+
+.star-input {
+	position: fixed;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.star-label {
+	@apply text-gray-400;
+	cursor: pointer;
+	font-size: 0;
+	transition: color 0.1s ease-in-out;
+}
+
+.star-label:before {
+	content: '🟊';
+	display: inline-block;
+	font-size: 1.8rem;
+}
+
+.star-input:checked ~ .star-label {
+	@apply text-zine;
+}
+
+.star-label:hover,
+.star-label:hover ~ .star-label {
+	@apply text-zine;
+}
+
+.star-input:checked + .star-label:hover,
+.star-input:checked + .star-label:hover ~ .star-label,
+.star-input:checked ~ .star-label:hover,
+.star-input:checked ~ .star-label:hover ~ .star-label,
+.star-label:hover ~ .star-input:checked ~ .star-label {
+	@apply text-zine;
+}

@@ -1,0 +1,33 @@
+{
+  "name": "website-foodzine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-live": "live-server src",
+    "watch-json": "json-server --watch foodzine.json",
+    "watch-tailwind": "tailwindcss -i ./src/css/tailwind.css -o ./src/css/styles.css --watch",
+    "dev": "concurrently \"npm run watch-live\" \"npm run watch-json\" \"npm run watch-tailwind\"",
+    "start": "concurrently \"npm run watch-live\" \"npm run watch-json\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "json-server": "^0.17.4",
+    "live-server": "^1.2.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/kelompok_imk/kuliner.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/kelompok_imk/kuliner/issues"
+  },
+  "homepage": "https://gitlab.com/kelompok_imk/kuliner#readme",
+  "description": ""
+}

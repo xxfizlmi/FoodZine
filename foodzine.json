@@ -1,0 +1,329 @@
+{
+	"restaurants": [
+		{
+			"id": 1,
+			"name": "Bakso President",
+			"rating": 4.6,
+			"scores": {
+				"taste": 4.5,
+				"ambiance": 4.4,
+				"price": 4.1,
+				"service": 4.2,
+				"cleanliness": 4.3
+			},
+			"address": "Jl. Ciliwung No.39",
+			"phone": "0813-2722-4141",
+			"type": "Indonesian Food",
+			"open": "10.00 - 22.00",
+			"payment": ["Cash", "Credit Card"],
+			"facilities": ["Halal", "Live Music", "Wifi", "Parkir", "Musholla"],
+			"capacity": 100,
+			"branch": true,
+			"menus": [
+				"img/menus/menu-1.jpeg",
+				"img/menus/menu-2.jpeg",
+				"img/menus/menu-3.jpeg"
+			],
+			"image": "img/restaurants/bakso-president.jpeg"
+		},
+		{
+			"id": 2,
+			"name": "Hodai Sushi",
+			"rating": 4.5,
+			"scores": {
+				"taste": 4.5,
+				"ambiance": 4.4,
+				"price": 4.1,
+				"service": 4.2,
+				"cleanliness": 4.3
+			},
+			"address": "Jl. Ciliwung No.39",
+			"phone": "0813-2722-4141",
+			"type": "All You Can Eat, Asia, Meat, Lunch",
+			"open": "10.00 - 22.00",
+			"payment": ["Cash", "Credit Card"],
+			"facilities": ["Halal", "Live Music", "Wifi", "Parkir", "Musholla"],
+			"capacity": 100,
+			"branch": true,
+			"menus": [
+				"img/menus/menu-1.jpeg",
+				"img/menus/menu-2.jpeg",
+				"img/menus/menu-3.jpeg"
+			],
+			"image": "img/restaurants/hodai-sushi.png"
+		},
+		{
+			"id": 3,
+			"name": "Sate Gebug 1920",
+			"rating": 4.4,
+			"scores": {
+				"taste": 4.5,
+				"ambiance": 4.4,
+				"price": 4.1,
+				"service": 4.2,
+				"cleanliness": 4.3
+			},
+			"address": "Jl. Ciliwung No.39",
+			"phone": "0813-2722-4141",
+			"type": "Indonesian Food",
+			"open": "10.00 - 22.00",
+			"payment": ["Cash", "Credit Card"],
+			"facilities": ["Halal", "Live Music", "Wifi", "Parkir", "Musholla"],
+			"capacity": 100,
+			"branch": true,
+			"menus": [
+				"img/menus/menu-1.jpeg",
+				"img/menus/menu-2.jpeg",
+				"img/menus/menu-3.jpeg"
+			],
+			"image": "img/restaurants/sate-gebug-1920.jpeg"
+		},
+		{
+			"id": 4,
+			"name": "Sour Sally",
+			"rating": 4.4,
+			"scores": {
+				"taste": 4.5,
+				"ambiance": 4.4,
+				"price": 4.1,
+				"service": 4.2,
+				"cleanliness": 4.3
+			},
+			"address": "Jl. Ciliwung No.39",
+			"phone": "0813-2722-4141",
+			"type": "Indonesian Food",
+			"open": "10.00 - 22.00",
+			"payment": ["Cash", "Credit Card"],
+			"facilities": ["Halal", "Live Music", "Wifi", "Parkir", "Musholla"],
+			"capacity": 100,
+			"branch": true,
+			"menus": [
+				"img/menus/menu-1.jpeg",
+				"img/menus/menu-2.jpeg",
+				"img/menus/menu-3.jpeg"
+			],
+			"image": "img/restaurants/sour-sally.png"
+		},
+		{
+			"id": 5,
+			"name": "Le Burger Allila",
+			"rating": 4.9,
+			"scores": {
+				"taste": 4.5,
+				"ambiance": 4.4,
+				"price": 4.1,
+				"service": 4.2,
+				"cleanliness": 4.3
+			},
+			"address": "Jl. Ciliwung No.39",
+			"phone": "0813-2722-4141",
+			"type": "Indonesian Food",
+			"open": "10.00 - 22.00",
+			"payment": ["Cash", "Credit Card"],
+			"facilities": ["Halal", "Live Music", "Wifi", "Parkir", "Musholla"],
+			"capacity": 100,
+			"branch": true,
+			"menus": [
+				"img/menus/menu-1.jpeg",
+				"img/menus/menu-2.jpeg",
+				"img/menus/menu-3.jpeg"
+			],
+			"image": "img/restaurants/le-burger-allila.jpg"
+		},
+		{
+			"id": 6,
+			"name": "Ou tu Cafe & Resto",
+			"rating": 4.7,
+			"scores": {
+				"taste": 4.5,
+				"ambiance": 4.4,
+				"price": 4.1,
+				"service": 4.2,
+				"cleanliness": 4.3
+			},
+			"address": "Jl. Ciliwung No.39",
+			"phone": "0813-2722-4141",
+			"type": "Indonesian Food",
+			"open": "10.00 - 22.00",
+			"payment": ["Cash", "Credit Card"],
+			"facilities": ["Halal", "Live Music", "Wifi", "Parkir", "Musholla"],
+			"capacity": 100,
+			"branch": true,
+			"menus": [
+				"img/menus/menu-1.jpeg",
+				"img/menus/menu-2.jpeg",
+				"img/menus/menu-3.jpeg"
+			],
+			"image": "img/restaurants/ou-tu-cafe-resto.jpg"
+		},
+		{
+			"id": 7,
+			"name": "The Dining Room Raffles",
+			"rating": 4.6,
+			"scores": {
+				"taste": 4.5,
+				"ambiance": 4.4,
+				"price": 4.1,
+				"service": 4.2,
+				"cleanliness": 4.3
+			},
+			"address": "Jl. Ciliwung No.39",
+			"phone": "0813-2722-4141",
+			"type": "Indonesian Food",
+			"open": "10.00 - 22.00",
+			"payment": ["Cash", "Credit Card"],
+			"facilities": ["Halal", "Live Music", "Wifi", "Parkir", "Musholla"],
+			"capacity": 100,
+			"branch": true,
+			"menus": [
+				"img/menus/menu-1.jpeg",
+				"img/menus/menu-2.jpeg",
+				"img/menus/menu-3.jpeg"
+			],
+			"image": "img/restaurants/the-dining-room-raffles.jpeg"
+		}
+	],
+	"universities": [
+		{
+			"id": 1,
+			"name": "Universitas Brawijaya",
+			"image": "img/universities/universitas-brawijaya.png"
+		},
+		{
+			"id": 2,
+			"name": "Universitas Negeri Malang",
+			"image": "img/universities/universitas-negeri-malang.png"
+		},
+		{
+			"id": 3,
+			"name": "Universitas Islam Negeri Maulana Malik Ibrahim",
+			"image": "img/universities/universitas-islam-negeri-maulana-malik-ibrahim.jpeg"
+		},
+		{
+			"id": 4,
+			"name": "Insitut Teknologi Nasional Malang",
+			"image": "img/universities/institut-teknologi-nasional-malang.jpeg"
+		}
+	],
+	"categories": [
+		{
+			"id": 1,
+			"name": "All You Can Eat",
+			"icon": "restaurant"
+		},
+		{
+			"id": 2,
+			"name": "Legendaris",
+			"icon": "menu_book"
+		},
+		{
+			"id": 3,
+			"name": "Kuliner Malam",
+			"icon": "ramen_dining"
+		},
+		{
+			"id": 4,
+			"name": "Instagramable",
+			"icon": "center_focus_weak"
+		},
+		{
+			"id": 5,
+			"name": "Fine Dining",
+			"icon": "liquor"
+		},
+		{
+			"id": 6,
+			"name": "Study Place",
+			"icon": "set_meal"
+		}
+	],
+	"foods": [
+		{
+			"id": 1,
+			"restaurant": 1,
+			"name": "Bakso Daging Sapi",
+			"price": 15000,
+			"image": "img/foods/bakso-daging-sapi.png"
+		},
+		{
+			"id": 2,
+			"restaurant": 1,
+			"name": "Bakso Isi Telur special",
+			"price": 20000,
+			"image": "img/foods/bakso-isi-telur-special.jpeg"
+		},
+		{
+			"id": 3,
+			"restaurant": 1,
+			"name": "Bakso Pedas President",
+			"price": 20000,
+			"image": "img/foods/bakso-pedas-president.jpeg"
+		},
+		{
+			"id": 4,
+			"restaurant": 3,
+			"name": "Penyetan Sate Gebug",
+			"price": 20000,
+			"image": "img/foods/penyetan-gebug.png"
+		}
+	],
+	"reviews": [
+		{
+			"id": 1,
+			"restaurant": 1,
+			"name": "Audy Nadira R",
+			"avatar": "img/avatars/audy-nadira-r.png",
+			"count": 2,
+			"helpful": 250,
+			"title": "Tempat Grill Terbaik!",
+			"body": "Enak dan banyak varian menu grillnya. Recommended buat mahasiswa yang baru dikirim",
+			"images": [
+				"img/reviews/review-1.png",
+				"img/reviews/review-2.png",
+				"img/reviews/review-3.jpeg"
+			],
+			"timestamp": "2023-11-19T07:00:00.000Z",
+			"menu": "Buffet reguler",
+			"visit": "2023-11-19T07:00:00.000Z",
+			"price": 99000
+		},
+		{
+			"id": 2,
+			"restaurant": 1,
+			"name": "Theresia Artha",
+			"avatar": "img/avatars/theresia-artha.png",
+			"count": 2,
+			"helpful": 250,
+			"title": "Makanannya Enak",
+			"body": "Makanannya enak! Aku paling suka chicken teriyakinya. Cocok banget buat makan rame - rame",
+			"images": [
+				"img/reviews/review-1.png",
+				"img/reviews/review-2.png",
+				"img/reviews/review-3.jpeg"
+			],
+			"timestamp": "2023-11-19T07:00:00.000Z",
+			"menu": "Buffet reguler",
+			"visit": "2023-11-19T07:00:00.000Z",
+			"price": 99000
+		},
+		{
+			"id": 3,
+			"restaurant": 1,
+			"name": "Nafakhatul F",
+			"avatar": "img/avatars/nafakhatul-f.png",
+			"count": 2,
+			"helpful": 250,
+			"title": "Pilihan Menunya Lengkap",
+			"body": "Makan beratnya ada dan dessertnya ada. Suka banget makan di sini! Tapi, harus ngajak temen sih",
+			"images": [
+				"img/reviews/review-1.png",
+				"img/reviews/review-2.png",
+				"img/reviews/review-3.jpeg"
+			],
+			"timestamp": "2023-11-19T07:00:00.000Z",
+			"menu": "Buffet reguler",
+			"visit": "2023-11-19T07:00:00.000Z",
+			"price": 99000
+		}
+	]
+}
