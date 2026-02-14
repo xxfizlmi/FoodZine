@@ -8,7 +8,9 @@
     "watch-json": "json-server --watch foodzine.json",
     "watch-tailwind": "tailwindcss -i ./src/css/tailwind.css -o ./src/css/styles.css --watch",
     "dev": "concurrently \"npm run watch-live\" \"npm run watch-json\" \"npm run watch-tailwind\"",
-    "start": "concurrently \"npm run watch-live\" \"npm run watch-json\""
+    "start": "concurrently \"npm run watch-live\" \"npm run watch-json\"",
+    "build": "tailwindcss -i ./src/css/tailwind.css -o ./src/css/styles.css"
+
   },
   "keywords": [],
   "author": "",
